@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  direction: rtl;
+}
+
+html {
+  direction: rtl;
+}
+
+/* MathQuill Styles */
+.mq-root-block {
+  font-size: 16px !important;
+}
+
+.mq-editable-field {
+  border: 1px solid #E5E7EB;
+  border-radius: 0.375rem;
+  padding: 0.5rem;
+  min-height: 40px;
+}
+
+.mq-editable-field.mq-focused {
+  border-color: #3B82F6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
